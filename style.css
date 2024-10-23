@@ -44,7 +44,12 @@ section {
     border: 1px solid #007BFF;
     border-radius: 5px;
 }
-
+.documentos{
+    display: flex; /* Asegura que el margen automático funcione */
+    margin: 20px auto; /* Márgenes superior/inferior de 20px, laterales automáticos */
+    max-width: 80%; /* Asegura que la imagen no exceda el ancho de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
 footer {
     text-align: center;
     padding: 10px 0;
@@ -67,6 +72,6 @@ img {
 }
 iframe {
     border: none;
-    width: 90%;
-    height: 10%;
+    width: 50%;
+    height: 600%;
 }
