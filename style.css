@@ -1,8 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    
 }
 
 h1{
@@ -10,7 +11,7 @@ h1{
 }
 
 header {
-    background: #007BFF;
+    background: linear-gradient(to right, #00f, rgb(36, 162, 201)); /* Degradado azul */
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -47,17 +48,18 @@ section {
 .documentos{
     display: flex; /* Asegura que el margen automático funcione */
     margin: 20px auto; /* Márgenes superior/inferior de 20px, laterales automáticos */
-    max-width: 80%; /* Asegura que la imagen no exceda el ancho de su contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho de su contenedor */
+    height: 50%; /* Mantiene la proporción de la imagen */
 }
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #007BFF;
+    background: linear-gradient(to right, #00f, rgb(36, 162, 201)); /* Degradado azul */
     color: white;
     position: relative;
     bottom: 0;
     width: 100%;
+
 }
 
 img {
@@ -72,6 +74,83 @@ img {
 }
 iframe {
     border: none;
-    width: 50%;
-    height: 600%;
+    width: 45%;
+    height: auto;
+    gap: 60px;
+}
+.segundo{
+    display: flex;
+    width: 100%;
+    height: 600px; /* Ajusta la altura según sea necesario */
+    border: none;
+    gap: 20px;
+}
+.poster{
+    display: flex;
+    width: 100%;
+    height: 600px; /* Ajusta la altura según sea necesario */
+    border: none;
+    margin: auto;
+    text-align: center;
+}
+.otro{
+    display: flex;
+    width: 100%;
+    height: 600px; /* Ajusta la altura según sea necesario */
+    border: none;
+    margin: auto;
+    text-align: center;
+    gap: 30px;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.arq{
+    display: flex;
+    width: 100%;
+    height: 600px; /* Ajusta la altura según sea necesario */
+    border: none;
+   
+}
+
+.centrar{
+    display: flex; /* Usa flexbox para colocar las imágenes en fila */
+    
+    height: 250px;
+    width: auto;
+}
+.dea2{
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten a varias filas */
+    gap: 10px; /* Espacio entre las imágenes */
+    width: calc(50% - 10px); /* Ancho de cada imagen (2 en 2) */
+}
+.arq2{
+    display: flex;
+    width: 100%;
+    height: 600px; /* Ajusta la altura según sea necesario */
+    border: none;
+}
+.arq3{
+    display: flex;
+    width: 100%;
+    height: 600px; /* Ajusta la altura según sea necesario */
+    border: none;
+}
+.division{
+    
+
+    display: flex;
+    max-width: auto; /* Ajusta la imagen al tamaño del contenedor */
+    height: 600px; /* Mantiene la proporción de la imagen */
+    margin-right: 400px; /* Espacio entre la imagen y el texto */
+    align-items: center; /* Alinea verticalmente el contenido */
+    max-width: 600px; /* Limita el ancho del texto */
+        
+   
+}
+.divison2{
+    
+ display: flex; /* Utiliza flexbox para alinear elementos en fila */
+align-items: center; /* Alinea verticalmente el contenido */
 }
